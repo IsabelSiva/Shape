@@ -14,9 +14,9 @@ public class Application {
 
         rectangle = new Rectangle(width, height);
 
-        System.out.println("Area do retângulo: " + rectangle.area(width, height));
-        System.out.println("Perimetro do retângulo: " + rectangle.perimeter(width, height));
-        System.out.println("Diagonal do retângulo: " + rectangle.diagonal(width, height));
+        System.out.println("Area do retângulo: " + rectangle.area());
+        System.out.println("Perimetro do retângulo: " + rectangle.perimeter());
+        System.out.println("Diagonal do retângulo: " + rectangle.diagonal());
 
         System.out.println("************************************************************");
 
@@ -25,9 +25,9 @@ public class Application {
 
         circle = new Circle(radius);
 
-        System.out.println("A diagonal do circulo: "+ circle.diameter(radius));
-        System.out.println("O comprimento do circulo: "+ circle.length(circle.diameter(radius)));
-        System.out.println("A area do circulo: "+ circle.area(radius));
+        System.out.println("A diagonal do circulo: "+ circle.diameter());
+        System.out.println("O comprimento do circulo: "+ circle.length());
+        System.out.println("A area do circulo: "+ circle.area());
 
         sc.close();
     }

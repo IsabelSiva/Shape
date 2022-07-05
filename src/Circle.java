@@ -5,14 +5,14 @@ public class Circle {
     public Circle(double radius){
         this.radius = radius;
     }
-    public double diameter( double radius){
-        return 2 * radius;
+    public double diameter(){
+        return 2 * this.radius;
     }
-    public double area( double radius){
-        return PI * (radius * radius);
+    public double area(){
+        return PI * (this.radius * this.radius);
     }
-    public double length(double diameter){
-        return PI * diameter;
+    public double length(){
+        return PI * diameter();
     }
 
     @Override

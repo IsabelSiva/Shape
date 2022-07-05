@@ -7,14 +7,14 @@ public class Rectangle {
         this.height = height;
     }
 
-    public double area(double width, double height){
-        return width * height;
+    public double area(){
+        return this.width * this.height;
     }
-    public double perimeter(double width, double height){
-        return 2 * (width + height);
+    public double perimeter(){
+        return 2 * (this.width + this.height);
     }
-    public double diagonal(double width, double height){
-        return Math.sqrt((width * width) + (height * height));
+    public double diagonal(){
+        return Math.sqrt((this.width * this.width) + (this.height * this.height));
     }
 
     @Override
